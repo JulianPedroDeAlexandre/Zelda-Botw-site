@@ -1,0 +1,150 @@
+@import url('https://fonts.cdnfonts.com/css/the-wild-breath-of-zelda');
+
+            
+*{
+    margin: 0px;
+    background-image: url(./img/black.jpg);
+    background-repeat: repeat;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+
+
+}
+
+.dropdown-menu {
+    background-color: #fff; /* Defina a cor de fundo desejada para o submenu */
+}
+
+.dropdown-menu a:hover {
+    color: #B0976D; /* Defina a cor desejada para o texto quando o mouse passa por cima */
+}
+
+
+
+
+*:not(body):not(.divider):not(.dropdown-menu){
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+
+
+h1{
+    
+    font-size: 100px;
+    text-align: center;
+    padding-top: 25px;
+    background-image: none;
+
+}
+
+.divider{
+    background-image: url('./img/divider-content.png');
+    background-repeat: repeat-x;
+
+}
+
+
+
+.imgprincipal img{
+    width: 1310px;
+    height: auto;
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    background-image: none;
+    background-color: transparent;
+    
+}
+
+p{
+    text-align: center;
+    margin: 100px;
+    color: white;
+    font-size: 25px;
+    background-image: none;
+
+}
+
+.h1{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    background-image: none;
+    background-color: transparent;
+
+    
+    
+}
+
+h3{
+    text-align: center;
+    color: white; 
+    padding: 15px;
+    background-image: none;
+
+}
+
+a{
+    font-size: 35px;
+    background-image: none;
+}
+
+
+
+
+.navbar a{
+    color: white;
+}
+
+
+
+
+
+
+form{
+    background-color: transparent;
+    background-image: none;
+    justify-content: center;
+    width: 600px;
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    
+    
+}
+
+
+.formulario label,
+    .formulario input {
+        color: white; /* Define a cor do texto como branca */
+    }
+
+.form-control{
+        color: white;
+    }
+
+.teste{
+    position: absolute;
+    left: 0;
+    width: 100%; /* Largura da imagem igual à largura da div */
+    z-index: 1; /* Posiciona a imagem acima da div */
+}
+
+
+
+
